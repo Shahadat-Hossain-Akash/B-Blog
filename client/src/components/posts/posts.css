@@ -1,0 +1,11 @@
+.posts{
+    display: flex;
+    width: 75vw;
+    background-color: #f6f6f2;
+    margin-top: 250px;
+    justify-content: center;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    padding-bottom: 200px;
+
+}

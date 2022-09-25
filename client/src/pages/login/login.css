@@ -1,0 +1,136 @@
+.login{
+    display: flex;
+    height: 92.2vh;
+    background-color: #f6f6f2;
+    background-image: url('../../images/noiseless.png');
+    transition: all .5s ease-in-out;
+}
+.left{
+    flex: 1;
+}
+.right{
+    flex: 1;
+}
+.loginImage{
+    width: 260px;
+    height: 560px;
+    position: absolute;
+    left: 20%;
+
+}
+.loginPageImage{
+    width: 260px;
+    height: 560px;
+    object-fit: cover;
+    border-radius: 0 0 128px 128px;
+    
+}
+.secondImage{
+    width: 260px;
+    height: 450px;
+    position: absolute;
+    left: 26%;
+    border-radius: 0 0 128px 128px;
+    backdrop-filter: blur(2px);
+    background-image: url('../../images/noiseless.png');
+    opacity: 0.3;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.rightArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 140px 120px;
+    border: #333 1px solid;
+    box-shadow: 10px 10px 0 0 rgba(51, 51, 51, 0.8);
+    font-family: ml;
+}
+.registerButton{
+    position: absolute;
+    right: 5%;
+    top: 9%;
+    height: 40px;
+    width: 175px;
+    border: #333 1px solid;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+    font-family: ml;
+    color: #333;
+    box-shadow: 10px 10px 0 0 rgba(51, 51, 51, 0.8);
+    transition-timing-function: ease-out;
+    transition-duration: 0.2s;
+}
+.registerButton:hover{
+    transform: scale(1.02);
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+}
+.loginForm > label,input{
+    margin-bottom: 35px;
+    color: #333;
+}
+.loginForm > label{
+    font-size: 22px;
+}
+.loginButton{
+    height: 50px;
+    width: 318px;
+    border: #333 1px solid;
+    padding-top: 10px;
+    font-size: 28px;
+    font-family: ml;
+    color: #f6f6f2;
+    transition-timing-function: ease-out;
+    transition-duration: 0.2s;
+    background-color: #333;
+    margin-top: 40px;
+    box-shadow: 10px 10px 0 0 rgba(51, 51, 51, 0.8);
+}
+.loginForm > input{
+    height: 40px;
+    width: 310px;
+    border: #333 1px solid;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: ml;
+    color: #333;
+    background-color: #f6f6f2;
+    transition-timing-function: ease-out;
+    transition-duration: 0.2s;
+    box-shadow: 10px 10px 0 0 rgba(51, 51, 51, 0.8);
+    text-indent: 20px;
+}
+.loginButton:hover{
+    transform: scale(1.02);
+}
+.loginForm > input:hover{
+    transform: scale(1.02);
+}
+.loginForm > input:enabled{
+    border: #333 1px solid;
+    outline: 0;
+}
+.loginForm > p{
+    font-size: 15px;
+    color: rgba(51, 51, 51, 0.5);
+    margin-top: 25px;
+    padding-left: 50px;
+    font-family: mr;
+    transition: all .2s ease-out;
+}
+.loginForm > p:hover{
+    color: rgba(51, 51, 51, 1);;
+    cursor: pointer;
+}
+.loginButton:disabled{
+    opacity: 0.65;
+    cursor: progress;
+}

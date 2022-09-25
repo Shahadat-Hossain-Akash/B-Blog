@@ -1,0 +1,16 @@
+    @font-face {
+        font-family: 'mli';
+        src: local('mli'), url(./fonts/Mauren-LightItalic.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'ml';
+        src: local('ml'), url(./fonts/Mauren-Light.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'mr';
+        src: local('mr'), url(./fonts/Mauren-Regular.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'ogg';
+        src: local('ogg'), url(./fonts/OggRegular.ttf) format('truetype');
+    }

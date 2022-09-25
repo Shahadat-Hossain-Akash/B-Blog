@@ -1,0 +1,135 @@
+.register{
+    display: flex;
+    height: 92.2vh;
+    background-color: #f6f6f2;
+    background-image: url('../../images/noiseless.png');
+    
+}
+.left{
+    flex: 1;
+}
+.right{
+    flex: 1;
+}
+.registerImage{
+    width: 260px;
+    height: 560px;
+    position: absolute;
+    left: 20%;
+
+}
+.registerPageImage{
+    width: 260px;
+    height: 560px;
+    object-fit: cover;
+    border-radius: 0 0 128px 128px;
+    transition: .2s ease-out;
+}
+.registerPageImage:hover{
+    filter: grayscale(1);
+}
+.secondImage{
+    width: 260px;
+    height: 450px;
+    position: absolute;
+    left: 26%;
+    border-radius: 0 0 128px 128px;
+    backdrop-filter: blur(2px);
+    background-image: url('../../images/noiseless.png');
+    opacity: 0.3;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+.registerRightArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 80px 120px;
+    border: #333 1px solid;
+    box-shadow: 10px 10px 0 0 rgba(51, 51, 51, 0.8);
+    font-family: ml;
+}
+.loginPageButton{
+    position: absolute;
+    right: 5%;
+    top: 9%;
+    height: 40px;
+    width: 175px;
+    border: #333 1px solid;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+    font-family: ml;
+    color: #333;
+    box-shadow: 10px 10px 0 0 rgba(51, 51, 51, 0.8);
+    transition-timing-function: ease-out;
+    transition-duration: 0.2s;
+}
+.loginPageButton:hover{
+    transform: scale(1.02);
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+}
+.registerForm > label,input{
+    margin-bottom: 25px;
+    color: #333;
+}
+.registerForm > label{
+    font-size: 22px;
+}
+.registerPageButton{
+    height: 50px;
+    width: 318px;
+    border: #333 1px solid;
+    padding-top: 10px;
+    font-size: 28px;
+    font-family: ml;
+    color: #f6f6f2;
+    transition-timing-function: ease-out;
+    transition-duration: 0.2s;
+    background-color: #333;
+    margin-top: 40px;
+    box-shadow: 10px 10px 0 0 rgba(51, 51, 51, 0.8);
+}
+.registerForm > input{
+    height: 40px;
+    width: 310px;
+    border: #333 1px solid;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: ml;
+    color: #333;
+    background-color: #f6f6f2;
+    transition-timing-function: ease-out;
+    transition-duration: 0.2s;
+    box-shadow: 10px 10px 0 0 rgba(51, 51, 51, 0.8);
+    text-indent: 20px;
+}
+.registerPageButton:hover{
+    transform: scale(1.02);
+}
+.registerForm > input:hover{
+    transform: scale(1.02);
+}
+.registerForm > input:enabled{
+    border: #333 1px solid;
+    outline: 0;
+}
+.registerForm > p{
+    color: #333;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 100px;
+    font-family: ml;
+    width: fit-content;
+    transition: all .2s ease-in-out;
+}
+.registerForm > p:hover{
+    color: rgba(51, 51, 51, 0.384);
+}

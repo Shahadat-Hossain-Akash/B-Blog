@@ -1,0 +1,6 @@
+.single{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    background-color: #f6f6f2;
+}
